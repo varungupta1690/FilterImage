@@ -1,0 +1,22 @@
+branch-defaults:
+  default:
+    environment: exercise-5-elastic-beanstalk-dev
+    group_suffix: null
+environment-defaults:
+  exercise-5-elastic-beanstalk-dev:
+    branch: null
+    repository: null
+global:
+  application_name: exercise-5-elastic-beanstalk
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Node.js 18 running on 64bit Amazon Linux 2023
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: null
+  workspace_type: Application
