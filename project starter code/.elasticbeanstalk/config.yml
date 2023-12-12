@@ -1,13 +1,16 @@
 branch-defaults:
   default:
-    environment: exercise-5-elastic-beanstalk-dev
+    environment: ImageFilter-dev
     group_suffix: null
 environment-defaults:
+  ImageFilter-dev:
+    branch: null
+    repository: null
   exercise-5-elastic-beanstalk-dev:
     branch: null
     repository: null
 global:
-  application_name: exercise-5-elastic-beanstalk
+  application_name: ImageFilter
   branch: null
   default_ec2_keyname: null
   default_platform: Node.js 18 running on 64bit Amazon Linux 2023
